@@ -1,0 +1,53 @@
+/* tvshows */
+
+body{
+	/*background: green url('../../img/bgTvShows.png') repeat-y top left;*/
+	background-image:-moz-linear-gradient(30% 10% 0deg,#000000, #FFFFFF, #FFFFFF 100%);
+	background-image:-webkit-gradient(linear, 65% 100%, 29% 100%, from(#FFFFFF), to(#000000));
+	margin-bottom: 70px
+}
+
+#mainContainer>h1{
+	margin-bottom:30px;	
+}
+
+.tvshowWrapper{	
+	margin-top: 20px;
+	position: relative;
+
+	-moz-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+}
+.tvshowOverlay,
+.tvshowWrapper {
+	height: 170px;
+	width: 758px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tvshowOverlay{
+	position: absolute;
+	border: solid 0px #fff;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	z-index: 100;
+}
+
+.tvshow img{
+	margin-top: 20px;
+	-webkit-box-shadow: 5px 5px 10px #000;
+	-moz-box-shadow: 5px 5px 10px #000;
+	box-shadow: 5px 5px 10px #000;
+ }
+
+.tvshowNameWrapper{
+	position: absolute;
+	left: 80px;
+	top: 138px;
+	z-index:0;
+}
+
+/* combiner*/
+
+

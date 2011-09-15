@@ -1,0 +1,288 @@
+
+
+/* tvshows */
+.tvshow{
+	margin-top: 40px;
+}
+.tvshow img{
+	border-bottom: solid 5px gray;
+	border-top: solid 5px gray;	
+}
+
+/* single tv show*/
+
+#singleShow{
+	position: relative;
+	margin-top: 40px;
+
+}
+
+#menuWrapper{
+	position: absolute;
+	top: 0;
+	left: 300px;
+}
+
+#seasons,
+#seasonsDesign{
+	position: absolute;
+	top: 80px;
+	width: 120px;
+	text-align: left;
+	padding: 10px;
+	z-index: 100;
+	text-align: center;
+}
+
+#seasonsDesign{
+	z-index: 10;
+	background: #F56A00;
+	border: solid 3px #00a0cf;
+	
+	-moz-box-shadow: 0px 3px 10px #000;
+	-webkit-box-shadow: 0px 3px 10px #000;
+	box-shadow: 0px 3px 10px #000;
+	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+ }
+#seasons a{
+	color: #B6B6B6;
+	margin-top: 6px;
+	margin-left: 8px;
+	display:block;
+	width: 100px;
+	text-decoration: none;
+	z-index: 60;
+	cursor: pointer;
+}
+#seasons a:hover{
+	color: #000;
+}
+
+#episodesWrapper{
+	text-align: left;
+	position: absolute;
+	top: 10px;
+	left: 500px;
+	border-left: solid 3px gray;
+	border-top: solid 3px gray;
+	border-bottom: solid 3px gray;
+	border-right: solid 3px gray;
+	padding: 20px;
+	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+
+	-moz-box-shadow: 3px 3px 10px #000;
+	-webkit-box-shadow: 3px 3px 10px #000;
+	box-shadow: 3px 3px 10px #000;	
+
+	width: 449px;
+	min-height: 400px;
+	background: url('../../img/bgEpisodes.png') repeat-y right;
+}
+#episodesWrapper a{
+	display:block;
+	color: #fff;
+	border-bottom: solid 2px green;
+	text-decoration: none;
+	/*text-shadow: #fff 1px 1px 0px, #fff -1px 1px 0px, #fff 1px -1px 0px, #fff -1px -1px 0px; */
+}	
+
+#episodesWrapper a:hover{
+	/*background-image: -moz-linear-gradient(0% 0% 0deg,rgba(0,0,0,0), #000000, rgba(0,0,0,0) 100%);*/
+	background-image: -moz-radial-gradient(left 0deg, ellipse farthest-side, #000 0%, rgba(0,0,0,0) 100%);
+	
+}
+.episodes{
+	display: auto; 	
+}
+.checker{
+	margin-left: 5px;
+	font-size: 60%;
+	text-shadow: none;
+}
+
+
+/* menu selector */
+
+#selectorWrapper{
+	position: absolute;
+	left: -200px;
+	top: 36px;
+	height: 120px;
+	width: 400px;
+	background: none;
+	z-index: 50;
+}
+
+#xtraCornerBgRight{	
+	position: absolute;
+	right: -3px;
+	width: 48px;
+	height: 120px;
+	background: #000;
+}
+#xtraCornerBgRightDisorder{	
+	position: absolute;
+	right: -3px;
+	width: 48px;
+	height: 120px;
+	background: #000;
+}
+#xtraCornerBgLeft{	
+	position: absolute;
+	top: 30px;
+	left: 162px;
+	width: 23px;
+	height: 66px;
+	background: #000;
+	z-index: 50;
+}
+#xtraCornerBgLeftDisorder{	
+	position: absolute;
+	top: 30px;
+	left: 162px;
+	width: 23px;
+	height: 66px;
+	background: #000;
+	z-index: 55;
+}
+#xtraCornerTopRight{
+	position: absolute;
+	right: -3px;
+	width: 50px;
+	height: 50px;	
+	border-bottom: solid 3px gray;
+	border-right: solid 3px gray;
+	-moz-border-radius-bottomright: 30px;
+	-webkit-border-bottom-right-radius: 30px;
+}
+#xtraCornerTopLeft{
+	position: absolute;
+	top: 30px;
+	left: 162px;
+	width: 20px;
+	height: 20px;	
+	border-bottom: solid 3px gray;
+	border-left: solid 3px gray;
+	-moz-border-radius-bottomleft: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	z-index: 60;
+}
+#xtraCornerBottomRight{
+	position: absolute;
+	top: 73px;
+	right: -3px;
+	width: 50px;
+	height: 50px;	
+	border-top: solid 3px gray;
+	border-right: solid 3px gray;
+	-moz-border-radius-topright: 30px;
+	-webkit-border-top-right-radius: 30px;
+}
+#xtraCornerBottomLeft{
+	position: absolute;
+	top: 73px;
+	left: 162px;
+	right: -3px;
+	width: 20px;
+	height: 20px;	
+	border-top: solid 3px gray;
+	border-left: solid 3px gray;
+	-moz-border-radius-topleft: 20px;
+	-webkit-border-top-left-radius: 20px;
+	z-index: 60;
+}
+
+#selector{
+	position: absolute;
+	top: 50px;
+	left: 185px;
+	width: 170px;
+	height: 20px;
+	border-top: solid 3px gray;
+	border-bottom: solid 3px gray;
+	/*border-left: solid 3px gray;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;*/
+	z-index: 50;
+}
+#seasonPicWrapper{
+	position: absolute;
+	top: 50px;
+	left: -61px;
+	width: 320px;
+	height: 450px;
+	border: solid 3px gray;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+
+	-moz-box-shadow: -3px 3px 8px #000;
+	-webkit-box-shadow: -3px 3px 8px #000;
+	box-shadow: -3px 3px 8px #000;
+ }
+.seasonPic {
+	margin-top: 15px;
+}
+
+.seasonPic img{
+	max-width: 290px;
+	max-height: 420px;
+	transform: scale(1.00) rotate(-9deg) translate(0px, 0px) skew(0deg, 0deg);
+	/*border: solid 4px #9BFF00;
+	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;*/
+}
+
+#selector,
+#xtraCornerTopRight,
+#xtraCornerBottomRight,
+#xtraCornerTopLeft,
+#xtraCornerBottomLeft,
+#episodesWrapper,
+#episodesWrapper a,
+#seasonPicWrapper{
+	border-color: #9BFF00;
+}
+#selector,
+#seasonsDesign,
+#seasonPicWrapper,
+#xtraCornerTopRight,
+#xtraCornerBottomRight,
+#xtraCornerBgRight,
+#xtraCornerBgRightDisorder,
+#xtraCornerBgLeft,
+#xtraCornerBgLeftDisorder,
+#episodesWrapper{
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
+
+
+#xtraCornerTopRight,
+#xtraCornerBottomRight,
+#xtraCornerTopLeft,
+#xtraCornerBottomLeft{
+	background-color: #fff;
+	background: none;
+}
+
+
+
+
+/*
+#seasonsDesign,
+#seasonPicWrapper,
+#episodesWrapper{
+	-webkit-box-reflect:below 1px -webkit-gradient(linear, 0% 5%, 0% 40%, from(transparent), to(#FFFFFF));	
+}
+*/
+
